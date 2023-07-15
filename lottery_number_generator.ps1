@@ -1,15 +1,18 @@
 Function LotteryDraw{
-    param ($min, $max, $quantity)
-    for($i=0;$i -lt $quantity;$i++){
-        Get-Random -Minimum $min -Maximum $max
+  param ($min, $max, $quantity)
+  for($i=0;$i -lt $quantity;$i++){
+      Get-Random -Minimum $min -Maximum $max
+
+  }
+}
 Function MatchThree {
-  Write-Host "Welcome to Match Three Game!"
+Write-Host "Welcome to Match Three Game!"
 }
 Function MegaLotto{
-  Write-Host "Welcome to Mega Lotto game!"    
+Write-Host "Welcome to Mega Lotto game!"    
 }
 Function MagicBall {
-  Write-Host "Welcome to Magic Ball game!"
+Write-Host "Welcome to Magic Ball game!"
 }
 
 MatchThree
