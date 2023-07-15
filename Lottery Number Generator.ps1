@@ -1,0 +1,4 @@
+Function LotteryDraw{
+    param ($min, $max, $quantity)
+    for($i=0;$i -lt $quantity;$i++){
+        Get-Random -Minimum $min -Maximum $max
