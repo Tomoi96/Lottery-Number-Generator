@@ -11,3 +11,12 @@ Function MegaLotto{
 Function MagicBall {
   Write-Host "Welcome to Magic Ball game!"
 }
+
+MatchThree
+LotteryDraw 1 9 3
+
+MegaLotto
+LotteryDraw 1000 9999 1
+
+MagicBall
+LotteryDraw 10 99 6
