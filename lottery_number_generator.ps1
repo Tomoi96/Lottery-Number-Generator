@@ -28,3 +28,5 @@ LotteryDraw 10 99 6
 Write-Host "Dear $User, these are lottery results!"
 
 LotteryDraw
+
+Read-Host -Prompt "Press Enter to exit"
